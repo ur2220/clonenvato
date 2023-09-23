@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navheight{
+    height: 100px;
+
+    
+}
+.navul{  margin: 2px 5px;
+   
+    display: flex;
+   list-style: none;
+   position:relative;
+
+}
+.navulal{
+    margin-left: auto;
+}
+ul li{
+    text-decoration: none;
+font-size: 20px;
+    margin: 3px 1.8vw;
+    position: relative;
+    
+}
+
+.submenu{
+   list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 250px;
+    min-width:1000px;
+   background-color:whitesmoke;
+    opacity: 0;
+   right:-400px;
+    position: absolute;
+    visibility: hidden;
+    display: flex;
+    /* flex-wrap: wrap; */
+    display:grid;
+    grid:auto/auto auto auto;
+    
+
+}
+.submenuu{
+   list-style: none;
+    margin: 0;
+    padding: 0;
+    height:200px;
+    width: 100px;
+    background-color: whitesmoke;
+    opacity: 0;
+    visibility: hidden;
+    display:grid;
+    position: absolute;
+
+}
+li:hover ul.submenu {
+    opacity: 1;
+    top:30px;
+    visibility: visible;
+    
+}
+ul li ul.submenu li:hover {
+    background-color: rgb(160, 117, 186);
+}
+li:hover ul.submenuu{
+    opacity: 1;
+    top: 30px;
+    visibility: visible;
+}
+ul li ul.submenuu li:hover {
+    background-color: rgb(229, 223, 123);
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    color: palevioletred;
+}
+.navbar-brand{
+    font-size: 22px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    
+    color: palevioletred;
+}
+/* #sublist{
+    list-style: none;
+   position: relative;
+    width: 600px;
+    height: 250px;
+    background-color: grey;
+} */
+@media screen and (max-width:900px) {
+    .submenu{
+   list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    width:700px;
+   background-color:whitesmoke;
+    opacity: 0;
+   right:-400px;
+    position: absolute;
+    visibility: hidden;
+    display: flex;
+    /* flex-wrap: wrap; */
+    display:grid;
+    grid:auto/auto auto auto;
+}
+
+}
+
+
+

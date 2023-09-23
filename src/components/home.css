@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.conthomepg{
+
+   margin:45px 0px 0px 0px;
+    padding: 0px;
+ display: flex;
+ justify-content: space-around;
+    justify-content: space-between;
+    height:auto;
+    width: 100vw;
+
+   
+}
+.leftcontbox{
+    height:40vh;
+   
+    margin-top: 80px;
+    margin-left:80px;
+    width: auto;
+    
+    
+}
+
+
+.rightcont{
+height: 100%;
+
+
+    
+}
+.rightcont img{
+    height:inherit;
+    width: 100%;
+    object-fit:contain;
+  
+}
+.hmrating{
+    display: flex;
+    align-items: center;
+
+    
+}
+.stars{
+    margin: 5px;
+}
+.starrat{
+    margin: auto 3px;
+}
+.leftcontparra{
+    font-family: jost, sans-serif;
+    font-size: 40px;
+    font-weight:900;
+}
+.leftcontbtn{
+    display: flex;
+}
+.leftcontbtn button{
+   
+    margin: 0px 5px;
+    width: 230px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+    
+}
+.leftbtnn{
+    background-color: #e95095;
+    color: white;
+}
+.leftbtnn:hover{
+    background-color: #564dc1;
+    color: white;
+}
+.rightbtnn:hover{
+    background-color: #564dc1;
+}
+
+.leftcontvist{
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+.numbering{
+    margin:15px;
+    
+}
+.numbering p {
+    margin: 0px;
+    font-size:35px;
+    font-weight:700;
+}
+
+/* Responsive */
+
+@media screen and (max-width:1100px) {
+    
+    .conthomepg{
+        margin: auto;
+         padding: 0px;
+      display:block;
+      
+         height:auto;
+     }
+
+     .leftcontbox{
+        height:auto;
+       
+        width:100vw;
+    }
+    .leftcontvist{
+ display: flex;
+ justify-content: left;
+    }
+
+    .rightcont{
+        height:40vh;
+        width: 100vw;
+        margin: auto;
+
+        }
+}
+@media screen and (max-width:572px) {
+  
+    .leftcontbox{
+      margin: 0px;
+        width:100vw;
+    }
+}
+

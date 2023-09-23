@@ -1,0 +1,27 @@
+.toppestone{
+    width: 100vw;
+    height: 50px;
+    background-color: #000000db;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.topbrndimg img {
+    margin: 0px 5px;
+    height: 49px;
+}
+.topbtn{
+    margin: 0 10px;
+    background-color: rgb(126, 184, 40);
+    padding: 4px 10px;
+    color: white;
+    border-radius: 5px;
+    
+}
+.topbtn:hover{
+
+background-color: rgb(111, 163, 34);
+
+}
